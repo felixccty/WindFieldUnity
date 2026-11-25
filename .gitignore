@@ -1,0 +1,65 @@
+# Visual Studio
+.vs/
+Debug/
+Release/
+x64/
+ARM64/
+ipch/
+*.user
+*.suo
+*.VC.db
+*.VC.opendb
+*.pdb
+*.ilk
+*.obj
+*.tlog/
+*.exp
+*.idb
+
+# Qt generated
+moc_*.cpp
+ui_*.h
+qrc_*.cpp
+*.moc
+QtMsBuild/
+
+# Python
+__pycache__/
+*.pyc
+*.spec.bak
+
+# Build output
+build/
+dist/
+*.exe
+*.dll
+*.lib
+*.bin
+
+# Local data & runtime logs
+Data/
+LogFile/
+*.log
+*.rar
+*.zip
+
+# OS
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Project-specific
+# Unity generated
+Library/
+Temp/
+Obj/
+Logs/
+UserSettings/
+Builds/
+*.csproj
+*.sln
+*.user
+# Excluded source binaries / data
+*.mp4
+*.zip
+*.dxf

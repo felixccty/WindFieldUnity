@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 444" width="100%" font-family='-apple-system, BlinkMacSystemFont, Segoe UI, Microsoft YaHei, sans-serif'>
+  <title>WindFieldUnity 分层架构</title>
+  <desc>四层结构：交互层调参，业务层解析 CSV，粒子场景层执行可视化，数据层提供输入。</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M2 1L8 5L2 9" fill="none" stroke="context-stroke" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    </marker>
+  </defs>
+  <text x="40" y="32" font-size="16" font-weight="500" fill="#2C2C2A">WindFieldUnity 分层架构</text>
+  <rect x="40" y="56" width="600" height="76" rx="10" fill="#E6F1FB" stroke="#85B7EB" stroke-width="0.5"/>
+  <text x="48" y="94.0" font-size="12" fill="#185FA5" dominant-baseline="central">交互层</text>
+  <rect x="152" y="72" width="108" height="44" rx="8" fill="#ffffff" stroke="#85B7EB" stroke-width="0.5"/>
+  <text x="206" y="94.0" font-size="12" fill="#2C2C2A" text-anchor="middle" dominant-baseline="central">Scrollbar 滑条组</text>
+  <rect x="272" y="72" width="108" height="44" rx="8" fill="#ffffff" stroke="#85B7EB" stroke-width="0.5"/>
+  <text x="327" y="94.0" font-size="12" fill="#2C2C2A" text-anchor="middle" dominant-baseline="central">Text 路径输入</text>
+  <rect x="393" y="72" width="108" height="44" rx="8" fill="#ffffff" stroke="#85B7EB" stroke-width="0.5"/>
+  <text x="447" y="94.0" font-size="12" fill="#2C2C2A" text-anchor="middle" dominant-baseline="central">罗盘 compass</text>
+  <rect x="514" y="72" width="108" height="44" rx="8" fill="#ffffff" stroke="#85B7EB" stroke-width="0.5"/>
+  <text x="568" y="94.0" font-size="12" fill="#2C2C2A" text-anchor="middle" dominant-baseline="central">退出/显隐</text>
+  <line x1="340.0" y1="132" x2="340.0" y2="148" stroke="#888780" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <rect x="40" y="148" width="600" height="76" rx="10" fill="#E1F5EE" stroke="#5DCAA5" stroke-width="0.5"/>
+  <text x="48" y="186.0" font-size="12" fill="#0F6E56" dominant-baseline="central">业务驱动层</text>
+  <rect x="152" y="164" width="149" height="44" rx="8" fill="#ffffff" stroke="#5DCAA5" stroke-width="0.5"/>
+  <text x="226" y="186.0" font-size="12" fill="#2C2C2A" text-anchor="middle" dominant-baseline="central">mapRotate 解析</text>
+  <rect x="313" y="164" width="149" height="44" rx="8" fill="#ffffff" stroke="#5DCAA5" stroke-width="0.5"/>
+  <text x="387" y="186.0" font-size="12" fill="#2C2C2A" text-anchor="middle" dominant-baseline="central">风速风向计算</text>
+  <rect x="473" y="164" width="149" height="44" rx="8" fill="#ffffff" stroke="#5DCAA5" stroke-width="0.5"/>
+  <text x="548" y="186.0" font-size="12" fill="#2C2C2A" text-anchor="middle" dominant-baseline="central">singleWindArea</text>
+  <line x1="340.0" y1="224" x2="340.0" y2="240" stroke="#888780" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <rect x="40" y="240" width="600" height="76" rx="10" fill="#EEEDFE" stroke="#AFA9EC" stroke-width="0.5"/>
+  <text x="48" y="278.0" font-size="12" fill="#534AB7" dominant-baseline="central">粒子与场景层</text>
+  <rect x="152" y="256" width="108" height="44" rx="8" fill="#ffffff" stroke="#AFA9EC" stroke-width="0.5"/>
+  <text x="206" y="278.0" font-size="12" fill="#2C2C2A" text-anchor="middle" dominant-baseline="central">ParticleSystem</text>
+  <rect x="272" y="256" width="108" height="44" rx="8" fill="#ffffff" stroke="#AFA9EC" stroke-width="0.5"/>
+  <text x="327" y="278.0" font-size="12" fill="#2C2C2A" text-anchor="middle" dominant-baseline="central">centralPoint</text>
+  <rect x="393" y="256" width="108" height="44" rx="8" fill="#ffffff" stroke="#AFA9EC" stroke-width="0.5"/>
+  <text x="447" y="278.0" font-size="12" fill="#2C2C2A" text-anchor="middle" dominant-baseline="central">地形 Mesh</text>
+  <rect x="514" y="256" width="108" height="44" rx="8" fill="#ffffff" stroke="#AFA9EC" stroke-width="0.5"/>
+  <text x="568" y="278.0" font-size="12" fill="#2C2C2A" text-anchor="middle" dominant-baseline="central">相机 camera_move</text>
+  <line x1="340.0" y1="316" x2="340.0" y2="332" stroke="#888780" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <rect x="40" y="332" width="600" height="76" rx="10" fill="#F1EFE8" stroke="#B4B2A9" stroke-width="0.5"/>
+  <text x="48" y="370.0" font-size="12" fill="#5F5E5A" dominant-baseline="central">数据输入层</text>
+  <rect x="152" y="348" width="149" height="44" rx="8" fill="#ffffff" stroke="#B4B2A9" stroke-width="0.5"/>
+  <text x="226" y="370.0" font-size="12" fill="#2C2C2A" text-anchor="middle" dominant-baseline="central">风场 CSV x:y</text>
+  <rect x="313" y="348" width="149" height="44" rx="8" fill="#ffffff" stroke="#B4B2A9" stroke-width="0.5"/>
+  <text x="387" y="370.0" font-size="12" fill="#2C2C2A" text-anchor="middle" dominant-baseline="central">Text_path 目录</text>
+  <rect x="473" y="348" width="149" height="44" rx="8" fill="#ffffff" stroke="#B4B2A9" stroke-width="0.5"/>
+  <text x="548" y="370.0" font-size="12" fill="#2C2C2A" text-anchor="middle" dominant-baseline="central">高度图 / DXF</text>
+</svg>
